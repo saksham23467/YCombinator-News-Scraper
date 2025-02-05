@@ -1,70 +1,59 @@
-YCombinator-News-Scraper
+# YCombinator-News-Scraper
 
-A Python script to scrape the latest articles from Hacker News using BeautifulSoup. This tool extracts article titles, links, and upvotes, helping you identify the most popular articles quickly.
+A Python script to scrape the latest articles from [Hacker News](https://news.ycombinator.com/) using BeautifulSoup. This tool extracts article titles, links, and upvotes, helping you identify the most popular articles quickly.
 
-🚀 Features
+## 🚀 Features
+- **Extract Latest Articles:** Grabs the newest posts from Hacker News.
+- **Get Article Titles & Links:** Displays article titles with direct links.
+- **Track Upvotes:** Shows the number of upvotes for each article.
+- **Highlight Top Article:** Identifies and displays the top-voted article.
 
-Extract Latest Articles: Grabs the newest posts from Hacker News.
+## 🛠️ Tech Stack
+- **Python 3**
+- **BeautifulSoup4**
+- **Requests Library**
 
-Get Article Titles & Links: Displays article titles with direct links.
+## 📦 Installation
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/HackerNews-Scraper.git
+   cd HackerNews-Scraper
+   ```
 
-Track Upvotes: Shows the number of upvotes for each article.
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Highlight Top Article: Identifies and displays the top-voted article.
-
-🛠️ Tech Stack
-
-Python 3
-
-BeautifulSoup4
-
-Requests Library
-
-📦 Installation
-
-Clone the Repository:
-
-git clone https://github.com/your-username/HackerNews-Scraper.git
-cd HackerNews-Scraper
-
-Install Dependencies:
-
-pip install -r requirements.txt
-
-💡 Usage
-
+## 💡 Usage
 Run the script using:
-
+```bash
 python hackernews_scraper.py
-
+```
 The script will:
+- Fetch the latest articles from Hacker News.
+- Display the titles, links, and upvotes.
+- Highlight the article with the highest upvotes.
 
-Fetch the latest articles from Hacker News.
-
-Display the titles, links, and upvotes.
-
-Highlight the article with the highest upvotes.
-
-📄 Example Output
-
+## 📄 Example Output
+```
 Top Article:
 Title: OpenAI launches ChatGPT Enterprise
 Link: https://news.ycombinator.com/item?id=123456
 Upvotes: 450
+```
 
-📋 Requirements
+## 📋 Requirements
+- Python 3.x
+- BeautifulSoup4
+- Requests
 
-Python 3.x
-
-BeautifulSoup4
-
-Requests
-
-🤝 Contributing
-
+## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the script.
 
-📜 License
-
+## 📜 License
 This project is licensed under the MIT License.
+
+---
+**Happy Scraping! 🚀**
 
